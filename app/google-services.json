@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1040725177420",
+    "project_id": "placement-management-sys-ab376",
+    "storage_bucket": "placement-management-sys-ab376.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040725177420:android:e51be4409b7735eec9b0e9",
+        "android_client_info": {
+          "package_name": "com.example.placementmanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUv3DpGEIzYgFUR6ts8V_1yufKP1Cn8kY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

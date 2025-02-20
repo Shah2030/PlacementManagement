@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".CntUs"
+    android:background="#FFFFFF">
+
+    <!-- Page Title -->
+    <TextView
+        android:id="@+id/txtContactTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="30sp"
+        android:textColor="#07124E"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Introductory Text -->
+    <TextView
+        android:id="@+id/txtContactIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you have any questions, feel free to reach out to us through the contact details below!"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginBottom="20dp"
+        android:lineSpacingExtra="4dp"/>
+
+    <!-- Email Section -->
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: abhijitshah.2030@gmail.com \n gundimahesh123@gmail.com"
+        android:textSize="16sp"
+        android:textColor="#07124E"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Phone Number Section -->
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: +91 9071214215, +918088662260"
+        android:textSize="16sp"
+        android:textColor="#07124E"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Address Section (if needed) -->
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 214 Ramraj Nagar, Ayodhya, India"
+        android:textSize="16sp"
+        android:textColor="#07124E"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Social Media Section -->
+    <TextView
+        android:id="@+id/txtSocialMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follow Us on Social Media"
+        android:textSize="16sp"
+        android:textColor="#07124E"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Example Social Media Links -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp">
+
+
+        <Button
+            android:background= "@drawable/ic_facebook"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:background="@drawable/ic_twitter"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:background="@drawable/ic_instagram"
+            android:contentDescription="Instagram"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+    <!-- Footer Text (Copyright or Terms) -->
+    <TextView
+        android:id="@+id/txtFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mahesh and Abhijit © 2025 Placement Management. All rights reserved."
+        android:textSize="14sp"
+        android:textColor="#888888"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

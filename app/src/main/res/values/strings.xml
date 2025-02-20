@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Placement Management</string>
+    <string-array name="departments">
+        <item>MCA</item>
+        <item>BCA</item>
+        <item>BTech</item>
+        <item>MTech</item>
+        <item>Other</item>
+        <item>MBA</item>
+        <item>BA</item>
+        <item>Computer Science</item>
+        <item>Information Science</item>
+        <item>Electronics</item>
+        <item>Electrical</item>
+        <item>Mechanical</item>
+        <item>Civil</item>
+    </string-array>
+
+</resources>

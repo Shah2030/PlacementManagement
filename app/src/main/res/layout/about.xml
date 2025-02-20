@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    tools:context=".Abt">
+
+    <!-- Title Section -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="30sp"
+        android:textColor="#07124E"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Introduction Section -->
+    <TextView
+        android:id="@+id/introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Placement Management! We aim to connect students with top companies and streamline the placement process for both students and recruiters."
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:lineSpacingExtra="6dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Mission Section -->
+    <TextView
+        android:id="@+id/mission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Mission: To provide students with the best placement opportunities and help recruiters find the right talent quickly and efficiently."
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:lineSpacingExtra="6dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Features Section -->
+    <TextView
+        android:id="@+id/features"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Key Features of Our App:\n\n 1. Easy Placement Updates\n 2. Role-Specific Recommendations\n 3. Company Profiles\n 4. Application Management\n 5. Custom Notifications\n 6. Track Your Application Status"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:lineSpacingExtra="6dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Team or Founders Section -->
+    <TextView
+        android:id="@+id/team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Team: Dedicated individuals committed to simplifying the placement process for students and employers."
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:lineSpacingExtra="6dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Contact Section -->
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us: For any queries or feedback, reach out to us at noreply@placement-management-sys-ab376.firebaseapp.com"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:lineSpacingExtra="6dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Social Media Links Section -->
+    <TextView
+        android:id="@+id/social_media"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Follow Us:\nFacebook | Twitter | Instagram"
+        android:textSize="16sp"
+        android:textColor="#07124E"
+        android:lineSpacingExtra="6dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Mahesh and Abhijit © 2025 Placement Management. All rights reserved."
+        android:textSize="14sp"
+        android:textColor="#888888"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"/>
+</LinearLayout>

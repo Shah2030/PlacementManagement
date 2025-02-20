@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Placement Updates"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="casual"/>
+
+    <EditText
+        android:id="@+id/etCompanyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company Name" />
+
+    <EditText
+        android:id="@+id/etJobRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Role" />
+
+    <EditText
+        android:id="@+id/etJobDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Description" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Departments" />
+
+    <EditText
+        android:id="@+id/etLastDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Application Deadline (DD/MM/YYYY)" />
+
+    <EditText
+        android:id="@+id/etJobUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job URL" />
+
+    <EditText
+        android:id="@+id/etCompanyDetails"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Company Details"
+        android:minLines="10" />
+
+    <Button
+        android:id="@+id/btnSendUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Update" />
+</LinearLayout>
